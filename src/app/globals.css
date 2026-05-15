@@ -2,25 +2,69 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --foreground: #666666;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-jetbrains-mono), monospace;
+  font-size: 15px;
+  line-height: 1.6;
+  /* the whole site is lowercase — enforced here so content can never break it */
+  text-transform: lowercase;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* links: same color as text, underlined only on hover */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* the essay page allows normal capitalization for all its content... */
+.essay-page {
+  text-transform: none;
+}
+/* ...except the back link, which stays lowercase like the rest of the site */
+.essay-page .back-link {
+  text-transform: lowercase;
+}
+
+/* essay title and date use Inter, matching the essay body */
+.essay-meta h1,
+.essay-meta p {
+  font-family: var(--font-inter), sans-serif;
+}
+
+/* essay body: Inter, justified with hyphenation, space between paragraphs */
+.essay p {
+  font-family: var(--font-inter), sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 1.25rem;
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+.essay p:last-child {
+  margin-bottom: 0;
+}
+
+/* headings inside an essay: differentiated by size and spacing, not bold */
+.essay h2 {
+  font-size: 17px;
+  font-weight: normal;
+  margin-top: 2.25rem;
+  margin-bottom: 1rem;
+}
+.essay h3 {
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 1.75rem;
+  margin-bottom: 0.75rem;
 }
