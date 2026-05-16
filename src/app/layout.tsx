@@ -15,7 +15,10 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "rahil",
+  title: "Rahil Chaudhary",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({

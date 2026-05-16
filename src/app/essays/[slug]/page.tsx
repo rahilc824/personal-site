@@ -11,17 +11,6 @@ export function generateStaticParams() {
   return getAllEssays().map((essay) => ({ slug: essay.slug }));
 }
 
-// sets the browser tab title to the essay title
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ slug: string }>;
-}) {
-  const { slug } = await params;
-  const essay = getEssay(slug);
-  return { title: essay ? essay.title : "rahil" };
-}
-
 export default async function EssayPage({
   params,
 }: {
