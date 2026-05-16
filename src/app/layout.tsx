@@ -17,7 +17,10 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Rahil Chaudhary",
   icons: {
-    icon: "/favicon.svg",
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon.png", type: "image/png" },
+    ],
   },
 };
 
