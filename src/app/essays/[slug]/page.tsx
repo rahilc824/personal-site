@@ -29,7 +29,7 @@ export default async function EssayPage({
       {/* title and date share a row: title left, date right-aligned */}
       <div className="essay-meta mt-8 flex items-baseline justify-between">
         <h1>{essay.title}</h1>
-        <p className="shrink-0 pl-6 text-[#999999]">
+        <p className="shrink-0 pl-6">
           {formatDate(essay.date)}
         </p>
       </div>
