@@ -44,7 +44,7 @@ a:hover {
 /* essay body: Inter, justified with hyphenation, space between paragraphs */
 .essay p {
   font-family: var(--font-inter), sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.7;
   margin-bottom: 1.25rem;
   text-align: justify;
