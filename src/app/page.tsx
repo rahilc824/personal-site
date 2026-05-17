@@ -1,4 +1,5 @@
 import Link from "next/link";
+import AudioPlayer from "@/components/AudioPlayer";
 import CityRotator from "@/components/CityRotator";
 import { getAllEssays } from "@/lib/essays";
 
@@ -16,9 +17,9 @@ export default function Home() {
         </p>
       </header>
 
-      {/* essays — a labelled list of titles, each linking to its own page */}
+      {/* read — a labelled list of essay titles, each linking to its own page */}
       <section className="mt-8">
-        <p>essays:</p>
+        <p>read:</p>
         <div className="mt-3 flex flex-col gap-4">
           {essays.map((essay) => (
             <Link key={essay.slug} href={`/essays/${essay.slug}`}>
@@ -28,11 +29,19 @@ export default function Home() {
         </div>
       </section>
 
-      {/* contact — mirrors the essays section structure */}
+      {/* write — mirrors the read section structure */}
       <section className="mt-8">
-        <p>contact:</p>
+        <p>write:</p>
         <div className="mt-3">
           <a href="mailto:r@rahilchaudhary.xyz">r@rahilchaudhary.xyz</a>
+        </div>
+      </section>
+
+      {/* listen — mirrors the section structure above, wrapping the player */}
+      <section className="mt-8">
+        <p>listen:</p>
+        <div className="mt-3">
+          <AudioPlayer />
         </div>
       </section>
 
