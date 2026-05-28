@@ -100,6 +100,6 @@ You will develop confidence. You will regulate your nervous system. You will man
 
 You may start at a higher level, but you cannot skip steps. You must, first and foremost, look within. You must explore the vastness and the openness of the human condition we call consciousness. Only then will you see. Only then will you understand. We are not conscious because we are human. We are human because we are conscious. And the most miraculous manifestation of consciousness is the bond and the connection we share with one another.
 
-Then you can see that friendship, partnership, marriage, and children are not exclusively for the wealthy and elite. You too are worthy. You too are deserving. 
+Then you can see that friendship, partnership, marriage, and children are not for the wealthy and elite alone. You too are worthy. You too are deserving. 
 
 So stay strong, lil bro. Stay patient, young buck. As long as you don’t give up. As long as you don’t give in. And as long as you keep your soul intact, you too can find your soulmate in the age of soullessness. She’s out there, and she’s waiting for you. Don’t let her down.
