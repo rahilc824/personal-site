@@ -36,7 +36,7 @@ export function formatDate(date: string): string {
   return `${name[0].toUpperCase()}${name.slice(1)} ${year}`;
 }
 
-// reads and parses every essay file, newest first
+// reads and parses every essay file, sorted alphabetically by title (case-insensitive)
 export function getAllEssays(): Essay[] {
   const files = fs.readdirSync(essaysDir).filter((file) => file.endsWith(".md"));
 
@@ -51,7 +51,9 @@ export function getAllEssays(): Essay[] {
     };
   });
 
-  return essays.sort((a, b) => b.date.localeCompare(a.date));
+  return essays.sort((a, b) =>
+    a.title.localeCompare(b.title, undefined, { sensitivity: "base" })
+  );
 }
 
 // finds a single essay by its slug
