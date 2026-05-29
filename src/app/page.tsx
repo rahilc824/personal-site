@@ -13,7 +13,7 @@ export default function Home() {
       <header>
         <h1 className="text-[22px]">rahil</h1>
         <p className="mt-2">
-          manager by trade. artist at heart. critical like theory.
+          manager by trade. artist at heart. philosopher in theory.
         </p>
       </header>
 
