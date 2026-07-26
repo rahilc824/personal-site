@@ -12,7 +12,7 @@ Still, if you think this sounds like vague, mysterious, esoteric bullshit, all I
 
 For the first two decades of my life, everything was attainable. Everything was achievable. The how, the where, and the when were not always under my command, but the outcome was never in question. The goal was never up for debate. The job was always finished.
 
-Everything changed 8 years ago. Everything fell apart. My body ballooned. My mind deflated. My soul crushed. My ascent capped before it could start. A bullet in each kneecap. The phenomenon was familiar, but the physics were foreign. And this time was different, because this time I broke.
+Everything changed 8 years ago. Everything fell apart. My body ballooned. My mind deflated. My ascent capped before it could start. A bullet in each kneecap. The phenomenon was familiar, but the physics were foreign. And this time was different, because this time I broke.
 
 I knew something was wrong. The person I saw I no longer recognized, so I stopped looking. The story I told no longer made sense, so I stopped telling. I was dead and alive at the same time. Still, the answer seemed so simple: a bug in my software. I just needed to fix the code.
 
