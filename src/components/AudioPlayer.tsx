@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 
-const NOW_PLAYING = "now playing: dijon — talk down";
+const NOW_PLAYING = "now playing: jai paul — str8 outta mumbai";
 const TYPE_SPEED_MS = 35;
 
 // Minimal text-only audio player: a single button toggling play/pause.
@@ -54,7 +54,7 @@ export default function AudioPlayer() {
       </button>
       <audio
         ref={audioRef}
-        src="/talk-down.mp3"
+        src="/str8-outta-mumbai.mp3"
         preload="none"
         onEnded={() => setPlaying(false)}
       />
